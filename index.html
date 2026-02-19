@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAF-IAST University | Institute of Applied Sciences & Technology</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="PAF-IAST Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>PAF-IAST</h1>
+                        <p>Institute of Applied Sciences & Technology</p>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-btn" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#programs" class="nav-link">Programs</a></li>
+                    <li><a href="#faculty" class="nav-link">Faculty</a></li>
+                    <li><a href="#lms" class="nav-link">LMS Portal</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#contact-info" class="nav-link">Contact Info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section - Clean without LMS links -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Welcome to PAF-IAST</h1>
+            <p class="hero-subtitle">Excellence in Applied Sciences & Technology Education</p>
+            <p class="hero-description">A joint initiative of the Government of Khyber Pakhtunkhwa, Austrian and Chinese Universities. Preparing future leaders through innovation, research, and practical learning experiences.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Explore More</a>
+                <a href="#lms" class="btn btn-secondary">Learn About LMS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-list">
+                <span class="breadcrumb-item"><a href="#home">Home</a></span>
+                <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+                <span class="breadcrumb-item active" id="currentPage">Home</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About PAF-IAST</h2>
+            <div class="about-grid">
+                <div class="about-content fade-in-left">
+                    <p class="about-intro">Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology (PAF-IAST) is unique in its concept, approach, and methodology.</p>
+                    
+                    <p>The project concept stems from the slogan <strong>"Skilling Pakistan"</strong> and envisages creating highly credible technical education infrastructure both at tertiary and hi-tech industry levels. With this twin-aim concept, the project is a quantum leap forward in the fast burgeoning knowledge-based economy, far beyond a mere educational program.</p>
+                    
+                    <p>Established in <strong>2020</strong>, PAF-IAST is located in <strong>Haripur, Khyber Pakhtunkhwa, Pakistan</strong>. The institute aims to elevate the quality of technical education in Pakistan through skill training and human resource development.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2020</span>
+                            <span class="stat-label">Established</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Faculties</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Programs</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">Students</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://paf-iast.edu.pk/" target="_blank" class="btn btn-primary">Visit Official Website <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                
+                <div class="about-gallery fade-in-right">
+                    <div class="gallery-grid">
+                        <div class="gallery-item main-image">
+                            <img src="D:\WEB A01\Images\campus-1.jpg" alt="PAF-IAST Main Campus">
+                        </div>
+                        <div class="gallery-item small-image">
+                            <img src="D:\WEB A01\Images\library.jpg" alt="PAF-IAST Logo">
+                        </div>
+                        <div class="gallery-item small-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-pT6otYfz--WA7TDAdfLO-ghLHwFlJjRQtQ&s" alt="University Building">
+                        </div>
+                    </div>
+                    
+                    <!-- Simple Facebook link instead of large feed -->
+                    <div class="facebook-simple">
+                        <a href="https://www.facebook.com/paf-iast.edu.pk/" target="_blank" class="facebook-link">
+                            <i class="fab fa-facebook-square"></i> Follow us on Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title">Academic Programs</h2>
+            
+            <div class="programs-tabs">
+                <button class="tab-btn active" data-tab="all">All Programs</button>
+                <button class="tab-btn" data-tab="computing">Computing</button>
+                <button class="tab-btn" data-tab="engineering">Engineering</button>
+                <button class="tab-btn" data-tab="life-sciences">Life Sciences</button>
+            </div>
+            
+            <div class="programs-grid" id="programsGrid">
+                <!-- Faculty of Computing, Art, Architecture, & Design -->
+                <div class="program-card" data-category="computing">
+                    <div class="program-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>BS Computer Science</h3>
+                    <p>Specializations in Artificial Intelligence, Data Science, and Software Engineering. Four-year program with industry internship.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="computing">
+                    <div class="program-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>BS Artificial Intelligence</h3>
+                    <p>Sino-Pak Center for Artificial Intelligence. Focus on machine learning, deep learning, and computer vision applications.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="computing">
+                    <div class="program-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>BS Cybersecurity</h3>
+                    <p>Comprehensive program covering network security, cryptography, ethical hacking, and digital forensics.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <!-- Faculty of Engineering, Sciences, & Technology -->
+                <div class="program-card" data-category="engineering">
+                    <div class="program-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>BS Electrical Engineering Technology</h3>
+                    <p>Hands-on training in power systems, electronics, control systems, and renewable energy technologies.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="engineering">
+                    <div class="program-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>BS Mechanical Engineering Technology</h3>
+                    <p>Focus on design, manufacturing, thermodynamics, and automotive engineering with lab work.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="engineering">
+                    <div class="program-icon">
+                        <i class="fas fa-train"></i>
+                    </div>
+                    <h3>BS Transportation/Railway Engineering</h3>
+                    <p>Specialized program in railway systems, infrastructure design, and transportation planning.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="engineering">
+                    <div class="program-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>BS Mineral Resource Engineering</h3>
+                    <p>Study of mining engineering, mineral processing, and resource management.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <!-- Faculty of Life Sciences -->
+                <div class="program-card" data-category="life-sciences">
+                    <div class="program-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>BS Agriculture Food Technologies</h3>
+                    <p>Program focusing on agricultural sciences, food processing, and food safety standards.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="life-sciences">
+                    <div class="program-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>BS Nanotechnology</h3>
+                    <p>Advanced program in nanomaterials, nano-fabrication, and applications in various industries.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-category="engineering">
+                    <div class="program-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>BS Environmental & Energy Engineering</h3>
+                    <p>Sister course with MCI Innsbruck focusing on environmental process and energy technology.</p>
+                    <div class="program-details">
+                        <span><i class="fas fa-clock"></i> 4 Years</span>
+                        <span><i class="fas fa-graduation-cap"></i> Bachelor's</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scholarship-note">
+                <i class="fas fa-award"></i>
+                <p><strong>PEEF Scholarships Available!</strong> For AI & Cybersecurity students under the Pakistan Education Endowment Fund scholarship program.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="faculty">
+        <div class="container">
+            <h2 class="section-title">Our Faculty</h2>
+            
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1aa80lEuSUeiTTPG09hzzhYRkm-gzEvxfjQ&s" alt="Dr. Imran Ullah Khan">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Imran Ullah Khan</h3>
+                        <p class="faculty-position">Professor, Chemical Engineering</p>
+                        <p class="faculty-bio">Trained at MCI Innsbruck, Austria. Specializes in environmental process engineering.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHqTmBN64M14t4BWSOAIKklD_RnineF0k5w&s" alt="Dr. Fida Hussain">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Fida Hussain</h3>
+                        <p class="faculty-position">Associate Professor</p>
+                        <p class="faculty-bio">MCI Innsbruck training program participant. Research in sustainable energy systems.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLxUG6ZLTIULQb0nrUuEGeaSmeM7JB59MHA&s" alt="Dr. Rizwan Ahmad">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Rizwan Ahmad</h3>
+                        <p class="faculty-position">Assistant Professor</p>
+                        <p class="faculty-bio">Environmental technology expert, trained at Austrian wastewater treatment facilities.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTQgBmNLhoK_wtTqrZLgZzbdx6HWV-oGbWXQ&s" alt="Dr. Muhammad Muqeet">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Muhammad Muqeet</h3>
+                        <p class="faculty-position">Assistant Professor</p>
+                        <p class="faculty-bio">Specializes in chemical process engineering and sustainable technologies.</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LMS Section -->
+    <section id="lms" class="lms">
+        <div class="container">
+            <h2 class="section-title">Learning Management System</h2>
+            
+            <div class="lms-container">
+                <div class="lms-card pulse-animation">
+                    <div class="lms-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Access Your LMS Portal</h3>
+                    <p>24/7 access to course materials, assignments, grades, and communication tools. Stay connected with instructors and classmates.</p>
+                    
+                    <div class="lms-buttons">
+                        <a href="https://lms.paf-iast.edu.pk/MyDashboard/Index" target="_blank" class="lms-btn">
+                            <i class="fas fa-tachometer-alt"></i> LMS Dashboard
+                        </a>
+                        <a href="https://lms.paf-iast.edu.pk/Error/Session_Expired?ReturnUrl=/MyDashboard/Index" target="_blank" class="lms-btn">
+                            <i class="fas fa-sign-in-alt"></i> LMS Login
+                        </a>
+                        <a href="https://paf-iast.edu.pk/" target="_blank" class="lms-btn">
+                            <i class="fas fa-globe"></i> University Website
+                        </a>
+                    </div>
+                    
+                    <div class="lms-note">
+                        <i class="fas fa-info-circle"></i>
+                        <p>If you encounter a "Session Expired" error, use the LMS Login link to renew your session.</p>
+                    </div>
+                </div>
+                
+                <div class="lms-features">
+                    <h3>LMS Features</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Course materials & lectures</li>
+                        <li><i class="fas fa-check-circle"></i> Assignment submissions</li>
+                        <li><i class="fas fa-check-circle"></i> Online quizzes & exams</li>
+                        <li><i class="fas fa-check-circle"></i> Discussion forums</li>
+                        <li><i class="fas fa-check-circle"></i> Grade tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Announcements & notifications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <h3>Get in Touch</h3>
+                    <form id="contactForm" class="contact-form" action="https://formsubmit.co/info@paf-iast.edu.pk" method="POST">
+                        <!-- FormSubmit.co configuration -->
+                        <input type="hidden" name="_subject" value="New Contact Form Submission - PAF-IAST Website">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://your-username.github.io/paf-iast-website/thank-you.html">
+                        
+                        <!-- Honeypot for spam prevention -->
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" class="form-control" required minlength="2" placeholder="Enter your full name">
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="Enter your email address">
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" pattern="[0-9+\-\s]+" placeholder="e.g., +92 300 1234567">
+                            <div class="error-message" id="phoneError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="" disabled selected>Select a subject</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Admissions">Admissions</option>
+                                <option value="Scholarships">Scholarships</option>
+                                <option value="LMS Support">LMS Support</option>
+                                <option value="Technical Issue">Technical Issue</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="error-message" id="subjectError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required minlength="10" placeholder="Type your message here..."></textarea>
+                            <div class="error-message" id="messageError"></div>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I consent to having this website store my submitted information for response purposes.</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display:none"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+                        </button>
+                    </form>
+                    
+                    <div id="formSuccess" class="form-success" style="display:none;">
+                        <i class="fas fa-check-circle"></i>
+                        <h4>Thank You!</h4>
+                        <p>Your message has been sent successfully. We'll get back to you soon.</p>
+                    </div>
+                    
+                    <div id="formError" class="form-error" style="display:none;">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>There was an error sending your message. Please try again or email us directly.</p>
+                    </div>
+                </div>
+                
+                <!-- Simple Map or Additional Content (Optional) -->
+                <div class="contact-side-content">
+                    <div class="info-card highlight-card">
+                        <h3><i class="fas fa-comment"></i> Why Contact Us?</h3>
+                        <p>We're here to help with any questions about admissions, programs, scholarships, or technical support. Fill out the form and we'll respond within 24-48 hours.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3><i class="fas fa-clock"></i> Response Time</h3>
+                        <p>Monday - Friday: Within 24 hours<br>Weekends: Within 48 hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Separate Contact Information Section -->
+    <section id="contact-info" class="contact-info-section">
+        <div class="container">
+            <h2 class="section-title">Contact Information</h2>
+            
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Location</h3>
+                    <p>Khanpur road, Mang, Haripur<br>Khyber Pakhtunkhwa, Pakistan</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone Number</h3>
+                    <p><a href="tel:+925111111111">+92 51 111 111 111</a></p>
+                    <p class="info-sub">Monday - Friday: 8:00 AM - 4:00 PM</p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Address</h3>
+                    <p><a href="mailto:info@paf-iast.edu.pk">info@paf-iast.edu.pk</a></p>
+                    <p><a href="mailto:admissions@paf-iast.edu.pk">admissions@paf-iast.edu.pk</a></p>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+                    <p>Saturday - Sunday: Closed</p>
+                </div>
+            </div>
+            
+            <!-- Social Media Links (Only Once) -->
+            <div class="contact-social">
+                <h3>Connect With Us</h3>
+                <div class="social-icons-center">
+                    <a href="https://www.facebook.com/paf-iast.edu.pk/" target="_blank" class="social-icon-circle facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/school/paf-iast/" target="_blank" class="social-icon-circle linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon-circle twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon-circle instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Simplified without duplicate social icons -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>PAF-IAST</h3>
+                    <p>Institute of Applied Sciences and Technology, committed to excellence in technical education and research. A joint venture with Austrian and Chinese Universities.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#programs"><i class="fas fa-chevron-right"></i> Programs</a></li>
+                        <li><a href="#faculty"><i class="fas fa-chevron-right"></i> Faculty</a></li>
+                        <li><a href="#lms"><i class="fas fa-chevron-right"></i> LMS Portal</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="#contact-info"><i class="fas fa-chevron-right"></i> Contact Info</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://paf-iast.edu.pk/" target="_blank"><i class="fas fa-chevron-right"></i> Official Website</a></li>
+                        <li><a href="https://lms.paf-iast.edu.pk/MyDashboard/Index" target="_blank"><i class="fas fa-chevron-right"></i> LMS Dashboard</a></li>
+                        <li><a href="https://www.hec.gov.pk/" target="_blank"><i class="fas fa-chevron-right"></i> HEC Pakistan</a></li>
+                        <li><a href="https://www.peef.pk/" target="_blank"><i class="fas fa-chevron-right"></i> PEEF Scholarships</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to stay updated.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 PAF-IAST University. All Rights Reserved. | Web Engineering Project by Umama Abbasi</p>
+                <p class="acknowledgment">Content sourced from official website and social media channels.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
